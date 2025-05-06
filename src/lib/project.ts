@@ -1,0 +1,150 @@
+import { Project } from '@/types/project';
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    name: 'Demande Client',
+    description:
+      "Site permettant la gestion de demande des clients de l'entreprise en les orgranisant, en y repondant, avec une partie administrateur permettant de gerer les équipes, les utilisateurs ainsi que les clients",
+    prefix: '/demande',
+    images: [
+      'capture-accueil.PNG',
+      'demande.png',
+      'Capture_demande_client_excel.PNG',
+      'CAPTURE 1.PNG',
+      'capture user.PNG',
+      'login-wiki.PNG',
+      'accueil-wiki-1.PNG',
+      'acceuil-wiki-2.PNG',
+      'admin-wiki.PNG',
+      'dashboard-wiki.PNG',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Plugin GLPI',
+    description:
+      "Plugin de commande de materiel pour les arrivées collaborateurs afin d'accéléré le workflow",
+    prefix: '/glpi',
+    images: [
+      'thumbnail.png',
+      'dem2.pdr.pdf',
+      'traitement.png',
+      'demande-humain.png',
+    ],
+  },
+  {
+    id: 3,
+    name: 'Gestion de ticket',
+    description:
+      "Portée vers le web d'une application de ticketing interne, offrant une vue aux utilisateurs sur les tickets envoyés, un systeme de messagerie lié au ticket, et leur offrant aussi la possibilitée d'envoyer des tickets",
+    prefix: '/Ticketing',
+    images: [
+      'thumbnail.png',
+      'dem.pdf',
+      "diagram d'activité.png",
+      'gantt-1.png',
+      'gantt-2.png',
+      'cr.png',
+      'before-ui.png',
+      'after-ui.png',
+      'con.png',
+      'github.png',
+      'github 1.png',
+      'github 2.png',
+      'test.png',
+      'table names.png',
+      'table-user-projet.png',
+    ],
+  },
+  {
+    id: 4,
+    name: 'Gestion des salles',
+    description:
+      "Atelier profressionalisant durant lequel nous avons créer une application web de gestion des salles d'une entreprise fictive nommée Streamio offrant une administration fine et une UX simple et intuitive",
+    prefix: '/streamii',
+    images: [
+      'thumbnail.png',
+      'context.pdf',
+      'notes.png',
+      'cdc.pdf',
+      'analyse.pdf',
+      'deploiment.pdf',
+      'class.png',
+      'activity.png',
+      'activity-account.png',
+      'thumbnail.png',
+      'admin.png',
+      'admin-2.png',
+      'hash.png',
+      'stripe.png',
+    ],
+  },
+  {
+    id: 5,
+    name: 'Gestion du materiel',
+    description:
+      'Atelier profressionalisant durant nous avons créer une application mobile permettant aux employé de streamio de modifier les stocks et les disponibilités du materiel',
+    prefix: '/streamii',
+    images: [
+      'thumbnail1.png',
+      'context.pdf',
+      'class.png',
+    ],
+  },
+  {
+    id: 6,
+    name: 'Installation GLPI',
+    description:
+      "Atelier profressionalisant durant lequel nous avons installée sur un serveur linux l'outil de ticketing GLPI",
+    prefix: '/glip',
+    images: [
+      'thumbnail.png',
+      'demande/Demande 1.png',
+      'demande/Demande 2.png',
+      'doc.pdf',
+      'prod.pdf',
+    ],
+  },
+  {
+    id: 7,
+    name: "Mise en conformité d'un site web",
+    description:
+      "Atelier profressionalisant durant lequel nous avons mis a disposition d'un client factice une documentation permettant la mise a niveau des pratiques de sécurité de son site web",
+    prefix: '/mise-en-conf',
+    images: [
+      'thumbnail.png',
+      'demande.pdf',
+      'cnil.pdf',
+      'analyse-risque.pdf',
+      'dcp.pdf',
+      'securite-surete.pdf',
+      'securite-donnees.pdf',
+      'prod.pdf',
+    ],
+  },
+  {
+    id: 8,
+    name: 'Veille informationelle',
+    description:
+      "Liste des outils que j'ai utilisé afin de mettre en place une veille informationelle sur la programmation notamment le developpement web front-end et backend",
+    prefix: 'Veille',
+    images: [
+      'Daily dev.png',
+      'feedly.png',
+      'prime.png',
+      'theo.png',
+      'react-compiler.png',
+      'react-compiler-article.png',
+      'ts.png',
+      'typescrip-go.png',
+    ],
+  },
+  {
+    id: 9,
+    name: 'Identité professionelle',
+    description: 'Elements mis en place pour mon identité profressionelle',
+    prefix: '/Identité pro',
+    images: ['linkedin.png', 'cv.png'],
+  },
+] as const;
