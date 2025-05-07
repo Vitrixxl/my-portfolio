@@ -3,6 +3,7 @@ import {
 	LucideArrowLeft,
 	LucideGithub,
 	LucideInfo,
+	LucideLinkedin,
 	LucideMail,
 } from "lucide-react";
 import { motion as m, useScroll, useTransform } from "motion/react";
@@ -138,11 +139,17 @@ export const CardContent = ({ trackScroll }: { trackScroll: boolean }) => {
 							vitrice91@gmail.com
 						</p>
 						<div className="flex items-center gap-2">
-							<a className="bg-violet-100 text-muted-foreground p-2 rounded-full">
+							<a
+								className="bg-violet-100 text-muted-foreground p-2 rounded-full"
+								href="https://github.com/Vitrixxl"
+							>
 								<LucideGithub />
 							</a>
-							<a className="bg-violet-100 text-muted-foreground p-2 rounded-full">
-								<LucideMail />
+							<a
+								className="bg-violet-100 text-muted-foreground p-2 rounded-full"
+								href="https://www.linkedin.com/in/vitrice-cascales/"
+							>
+								<LucideLinkedin />
 							</a>
 						</div>
 					</div>
