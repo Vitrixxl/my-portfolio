@@ -130,14 +130,14 @@ export const projects: Project[] = [
       "Liste des outils que j'ai utilisé afin de mettre en place une veille informationelle sur la programmation notamment le developpement web front-end et backend",
     prefix: 'Veille',
     images: [
-      'Daily dev.png',
       'feedly.png',
-      'prime.png',
-      'theo.png',
+      'ts.png',
+      'Daily dev.png',
       'react-compiler.png',
       'react-compiler-article.png',
-      'ts.png',
       'typescrip-go.png',
+      'prime.png',
+      'theo.png',
     ],
   },
   {
